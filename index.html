@@ -223,7 +223,7 @@
                   radial-gradient(ellipse at 85% 28%, rgba(123,31,43,0.06) 0%, transparent 55%);
       pointer-events: none;
     }
-    .hero-inner { max-width: var(--max-w); margin: 0 auto; padding: 0 2rem; position: relative; z-index: 1; }
+    .hero-inner { max-width: var(--max-w); margin: 0 auto; padding: 0 2rem; position: relative; z-index: 1; text-align: center; }
     .hero-badge {
       display: inline-flex; align-items: center; gap: 8px;
       font-family: 'Lora', Georgia, serif; font-size: 0.68rem; font-weight: 600;
@@ -232,11 +232,12 @@
     }
     .hero-badge::before, .hero-badge::after { content: ''; display: block; height: 1px; width: 32px; background: var(--gold); opacity: 0.7; }
     .hero-h1 { color: var(--burgundy); font-size: clamp(2.2rem,5.5vw,3.6rem); font-weight: 700; line-height: 1.12; margin-bottom: 1.4rem; letter-spacing: -0.01em; }
-    .hero-sub { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1rem,2vw,1.18rem); color: var(--navy-light); font-style: italic; line-height: 1.65; margin-bottom: 2rem; max-width: 640px; }
+    .hero-sub { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1rem,2vw,1.18rem); color: var(--navy-light); font-style: italic; line-height: 1.65; margin-bottom: 2rem; max-width: 640px; margin-left: auto; margin-right: auto; }
     .hero-intro {
       font-family: 'Lora', Georgia, serif; font-size: 0.97rem; color: var(--text-mid);
       line-height: 1.8; max-width: 600px;
       padding-top: 1.5rem; border-top: 1px solid rgba(198,166,100,0.4);
+      margin-left: auto; margin-right: auto;
     }
 
     /* ============================================================
