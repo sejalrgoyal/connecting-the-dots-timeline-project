@@ -985,6 +985,7 @@
     <button class="prog-dot" data-target="connection" title="Connection"><span class="prog-dot-tip">Connection</span></button>
     <button class="prog-dot" data-target="conclusion" title="Conclusion"><span class="prog-dot-tip">Conclusion</span></button>
     <button class="prog-dot" data-target="bibliography" title="Sources"><span class="prog-dot-tip">Sources</span></button>
+    <button class="prog-dot" data-target="glossary" title="Glossary"><span class="prog-dot-tip">Glossary</span></button>
   </aside>
 
   <!-- =====================================================  NAV  ===================================================== -->
@@ -1000,6 +1001,7 @@
         <li><a href="#connection">Connection</a></li>
         <li><a href="#conclusion">Conclusion</a></li>
         <li><a href="#bibliography">Sources</a></li>
+        <li><a href="#glossary">Glossary</a></li>
       </ul>
       <button class="hamburger" id="hamburger" aria-label="Toggle menu">
         <span></span><span></span><span></span>
@@ -1789,7 +1791,7 @@
     }, { passive: true });
 
     /* ── Progress sidebar dots ── */
-    const sectionIds = ['overview','context','theme','timeline','argument','connection','conclusion','bibliography'];
+    const sectionIds = ['overview','context','theme','timeline','argument','connection','conclusion','bibliography', 'glossary'];
     const progDots = document.querySelectorAll('.prog-dot');
     function updateActiveDots() {
       const mid = window.innerHeight * 0.45;
